@@ -5,7 +5,7 @@
 ### Chaparro Castillo Christopher
 ### Luis Antonio Peñuelas López
 
-##Como Funciona?
+## Como Funciona?
 
 ## Clase Node
 
