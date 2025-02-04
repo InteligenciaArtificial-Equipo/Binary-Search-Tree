@@ -39,8 +39,8 @@ class Node:
 
 class BinarySearchTree:
 
-    def __init__(self, value):
-        self.root = Node(value)
+    def __init__(self):
+        self.root = None
 
     def insert(self, value):
         if self.root is None:
@@ -58,17 +58,28 @@ class BinarySearchTree:
             return
         self.root.printTree()
 
-#Test
-bst = BinarySearchTree(5)
-bst.insert(4)
-bst.insert(6)
-bst.insert(2)
-bst.insert(3)
-bst.insert(1)
-bst.insert(7)
-bst.insert(5)
-
-bst.printTree()
-
-print(bst.search(3)) #True
-print(bst.search(8)) #False
+def main():
+    bst = BinarySearchTree()
+ 
+    while True:
+        print("1. Insert")
+        print("2. Search")
+        print("3. Print")
+        print("4. Exit")
+        choice = int(input("Enter your choice: "))
+        if choice == 1:
+            value = int(input("Enter the value to insert: "))
+            bst.insert(value)
+        elif choice == 2:
+            value = int(input("Enter the value to search: "))
+            print("Value found" if bst.search(value) else "Value not found")
+        elif choice == 3:
+            print("Tree:")
+            bst.printTree()
+        elif choice == 4:
+            break
+        else:
+            print("Invalid choice")
+    print("Exiting...")
+    
+main()
