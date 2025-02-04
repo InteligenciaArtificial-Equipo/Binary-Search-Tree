@@ -144,8 +144,8 @@ def main():
 
 ### Ejecución 1
 
-![Ejecucion1](![image](https://github.com/user-attachments/assets/172df97a-dd8e-4b83-8bf2-f13e6546c707))
+![Ejecucion1](https://github.com/user-attachments/assets/172df97a-dd8e-4b83-8bf2-f13e6546c707)
 
 ### Ejecución 2
 
-![Ejecucion2](![image](https://github.com/user-attachments/assets/c0e7c06d-aefb-4e8a-b236-e6ab8ee3c01b))
+![Ejecucion2](https://github.com/user-attachments/assets/c0e7c06d-aefb-4e8a-b236-e6ab8ee3c01b)
